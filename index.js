@@ -17,13 +17,12 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(deliLine){
-  let resultStr = "The line is currently:"
 
   if (deliLine.length > 0){
     for( let i = 0; i < deliLine.length; i++){
       let count = 0;
-    count = count + 1;
-     return resultStr + " " + count + "." + deliLine[i] + ",";
+      count = count + 1;
+      return `The line is currently: ${count}. ${deliLine[i]}, ${count}. ${deliLine[i]}, ${count}. ${deliLine[i]}`
 
       }
 
