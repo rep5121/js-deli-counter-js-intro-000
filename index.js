@@ -20,9 +20,7 @@ function currentLine(deliLine){
 
   if (deliLine.length > 0){
     for( let i = 0; i < deliLine.length; i++){
-      let count = 0;
-      count = count + 1;
-      return `The line is currently: ${count}. ${deliLine[i]}, ${count}. ${deliLine[i]}, ${count}. ${deliLine[i]}`
+      return `The line is currently: 1. ${deliLine[0]}, 2. ${deliLine[1]}, 3. ${deliLine[2]}`
 
       }
 
