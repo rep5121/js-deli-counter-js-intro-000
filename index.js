@@ -23,8 +23,8 @@ function currentLine(deliLine){
     for( let i = 0; i < deliLine.length; i++){
       let count = 0;
     count = count + 1;
-     resultStr + " " + count + "." + deliLine[i] + ",";
-     return resultStr;
+     return resultStr + " " + count + "." + deliLine[i] + ",";
+     
       }
 
   }
