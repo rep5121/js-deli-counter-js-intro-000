@@ -24,7 +24,7 @@ function currentLine(deliLine){
       let count = 0;
     count = count + 1;
      return resultStr + " " + count + "." + deliLine[i] + ",";
-     
+
       }
 
   }
