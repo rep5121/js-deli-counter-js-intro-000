@@ -21,9 +21,7 @@ function currentLine(deliLine){
   if (deliLine.length > 0){
     for( let i = 0; i < deliLine.length; i++){
       return `The line is currently: 1. ${deliLine[0]}, 2. ${deliLine[1]}, 3. ${deliLine[2]}`
-
       }
-
   }
 
   else{
